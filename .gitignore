@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Downloaded datasets (LOCATA etc.) - never committed; fetched by script
+data/external/
+
+# Local scratch
+scratch/
+
+# Original MATLAB implementation: kept locally as the validation baseline, not published.
+# Its printed outputs are the expected values in tests/test_reproduction.py.
+/reference/
